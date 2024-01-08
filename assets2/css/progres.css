@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+.progresses{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+   }
+   .line{
+    width: 120px;
+    height: 6px;
+    /* background: #63d19e; */
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+
+   }
+   .steps{
+    display: flex;
+    border: 1px solid #d9d9d9;
+    color: #fff;
+    /* background-color: #63d19e; */
+    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+   }
+   .activeStepper{
+    background-color: #63d19e;
+
+   }
+   .green{
+    background-color: #63d19e;
+   }
+   .blue{
+    background-color: #33e5e5;
+   }
